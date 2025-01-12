@@ -1,0 +1,99 @@
+/* Resume.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #befc06;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
+
+.header p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0 0;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Education and Projects */
+.education, .projects, .skills {
+    margin-left: 15px;
+}
+
+.education h3, .projects h3, .skills h3 {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.education p, .projects p, .skills p {
+    font-size: 0.95rem;
+    margin: 2px 0;
+    color: #555;
+}
+
+/* Skills */
+.skills p {
+    margin-left: 10px;
+    line-height: 1.5;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 600px) {
+    .resume {
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 1.8rem;
+    }
+
+    .header p {
+        font-size: 0.8rem;
+    }
+
+    .section h2 {
+        font-size: 1.3rem;
+    }
+
+    .education h3, .projects h3, .skills h3 {
+        font-size: 1rem;
+    }
+}
